@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "langgraph-react"
+version = "0.1.0"
+description = ""
+authors = ["Eden Marco <emarco177@gmail.com>"]
+packages = [{ include = "react" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.2.4"
+langchain-openai = "^0.1.8"
+langchainhub = "^0.1.20"
+black = "^24.4.2"
+isort = "^5.13.2"
+python-dotenv = "^1.0.1"
+langchain-community = "^0.2.4"
+langgraph = "^0.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
