@@ -15,6 +15,7 @@ isort = "^5.13.2"
 python-dotenv = "^1.0.1"
 langchain-community = "^0.2.4"
 langgraph = "^0.1.1"
+langchain-mistralai = "^0.1.9"
 
 
 [build-system]
