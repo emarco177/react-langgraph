@@ -1,6 +1,3 @@
-from dotenv import load_dotenv
-
-load_dotenv()
 from typing import Literal
 
 from langchain_community.tools.tavily_search import TavilySearchResults
@@ -34,7 +31,7 @@ workflow.set_entry_point("agent")
 workflow.add_conditional_edges("agent", should_continue)
 workflow.add_edge("tools", "agent")
 
-graph = workflow.compile()
+graphh = workflow.compile()
 
 # graph.get_graph().draw_mermaid_png(output_file_path="graph.png")
 

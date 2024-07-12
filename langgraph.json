@@ -1,6 +1,6 @@
 {
   "graphs": {
-    "agent": "./odsc.py:graph"
+    "agent": "./odsc.py:graphh"
   },
   "env": ".env",
   "dependencies": ["."]
